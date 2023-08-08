@@ -1,4 +1,4 @@
-## YouTube Database Builder
+# YouTube Database Builder
 ### Project Overview
 This project is designed to pull the 50 most popular YouTube videos from the Google YouTube API(https://developers.google.com/youtube/v3) daily from specific regions (US, IN, JP, BR, RU, DE) and store the data in a PostgreSQL database. The data is then digested in a Tableau dashboard, allowing for insightful analysis and visualization of YouTube's most popular content.
 
@@ -13,35 +13,35 @@ This project is designed to pull the 50 most popular YouTube videos from the Goo
 - SQLAlchemy: For SQL toolkit and Object-Relational Mapping (ORM) library for Python.
 
 ### Instructions on Implementing
-##### Prerequisites
+###### Prerequisites
 - Python 3.x
 - Apache Airflow
 - PostgreSQL
 - Tableau
 
 ### Installation
-##### Clone the Repository:
+###### Clone the Repository:
 - bash
 - Copy code
 - git clone <repository_url>
 
-##### Install Dependencies:
+###### Install Dependencies:
 - Copy code
 - pip install google-api-python-client pandas apache-airflow sqlalchemy psycopg2
 
-##### Configure Airflow:
+###### Configure Airflow:
 - Set up the Airflow configuration to include your YouTube API key.
 - Configure the PostgreSQL connection in Airflow with the ID postgres_yt.
 
-##### Set Up the Database:
+###### Set Up the Database:
 - Ensure that a PostgreSQL database is set up with the appropriate schema for the YouTube data.
 
-##### Schedule the DAG:
+###### Schedule the DAG:
 - Place the DAG file in your Airflow DAGs folder.
 - Start the Airflow web server and scheduler.
 - Enable the DAG in the Airflow web UI.
 
-#### Running the Project
+###### Running the Project
 The DAG will run daily if the machine it's on is available, pulling the data and storing it in the PostgreSQL database.
 
 ### Tableau Visualization
