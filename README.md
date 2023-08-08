@@ -9,7 +9,6 @@ This project is designed to pull the 50 most popular YouTube videos from the Goo
 - Airflow: For orchestrating the workflow of the tasks.
 - PostgreSQL: For storing the pulled data.
 - Tableau: For visualizing the data.
-- Boto3: AWS SDK for Python.
 - SQLAlchemy: For SQL toolkit and Object-Relational Mapping (ORM) library for Python.
 
 ### Instructions on Implementing
