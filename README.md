@@ -41,7 +41,7 @@ This project is designed to pull the 50 most popular YouTube videos from the Goo
 - Start the Airflow web server and scheduler.
 - Enable the DAG in the Airflow web UI.
 
-###### Running the Project
+###### Running the Project:
 The DAG will run daily if the machine it's on is available, pulling the data and storing it in the PostgreSQL database.
 
 ### Tableau Visualization
