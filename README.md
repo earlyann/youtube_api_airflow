@@ -50,9 +50,9 @@ I chose to explore the data with a Tableau dashboard. The full interactive versi
 <img width="1059" alt="Screen Shot 2023-08-07 at 5 42 45 PM" src="https://github.com/earlyann/youtube_api_airflow/assets/119711479/d48a1f11-753e-4fd2-8bff-c5f8ab1b676f">
 
 ### Next Steps
-Expand Region Coverage: Include more regions to get a broader view of popular videos.
-Enhance Data Analysis: Implement more sophisticated data analysis, incorporating other endpoints to derive insights.
-Automate Tableau Public: Set up the automation of the extraction of the SQL data and push it to Tableau Public.
+- Expand Region Coverage: Include more regions to get a broader view of popular videos.
+- Enhance Data Analysis: Implement more sophisticated data analysis, incorporating other endpoints to derive insights.
+- Automate Tableau Public: Set up the automation of the extraction of the SQL data and push it to Tableau Public.
 
 Feel free to fork the project, submit PRs, and contribute to enhancing this YouTube Database Builder.
 
